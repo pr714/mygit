@@ -1,0 +1,8 @@
+class C
+{
+	PUBLIC STATIC VOID MAIN(sTRINNG ARGS[])
+	{
+		sYSTEM.OUT.PRINTLN("hello");
+		}
+
+}
