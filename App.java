@@ -77,7 +77,6 @@ public class App {
 		Session session = getSessionFactory().openSession();
 		@SuppressWarnings("unchecked")
 		List<Employee> employees = session.createQuery("FROM Employee").list();
-//		List<Employee> employees = (List<Employee>) session.load(Employee.class,new Integer(39));
 		session.close();
 		System.out.println("Found " + employees.size() + " Employees");
 		return employees;
